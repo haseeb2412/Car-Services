@@ -1,6 +1,7 @@
 .service__item span i {
   font-size: 2.5rem;
-  color: #f9a826;
+  /* color: #f9a826; */
+  color: linear-gradient(#4ca1af   10%,  #c4e0e5  );
 }
 
 .service__item h6 {

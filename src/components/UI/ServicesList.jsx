@@ -17,7 +17,8 @@ const ServiceItem = ({ item }) => (
   <Col lg="4" md="4" sm="6" className="mb-3">
     <div className="service__item">
       <span className="mb-3 d-inline-block">
-        <i class={item.icon} />
+  
+        <img  src={item.image_url} alt="No photo"/>
       </span>
 
       <h6>{item.title}</h6>

@@ -12,6 +12,7 @@ import CarItem from "../components/UI/CarItem";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 import Testimonial from "../components/UI/Testimonial";
 
+
 import BlogList from "../components/UI/BlogList";
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
             <Row className="form__row">
               <Col lg="4" md="4">
                 <div className="find__cars-left">
-                  <h2>Find your best car here</h2>
+                  <h2>Find your best car here !</h2>
                 </div>
               </Col>
 
@@ -68,7 +69,7 @@ const Home = () => {
         </Container>
       </section>
       {/* =========== become a driver section ============ */}
-      <BecomeDriverSection />
+      {/* <BecomeDriverSection /> */}
 
       {/* =========== testimonial section =========== */}
       <section>
@@ -85,7 +86,7 @@ const Home = () => {
       </section>
 
       {/* =============== blog section =========== */}
-      <section>
+      {/* <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
@@ -96,7 +97,7 @@ const Home = () => {
             <BlogList />
           </Row>
         </Container>
-      </section>
+      </section> */}
     </Helmet>
   );
 };

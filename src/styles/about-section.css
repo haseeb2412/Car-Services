@@ -3,13 +3,17 @@
 }
 
 .about__section-item p i {
-  color: #f9a826;
+  color: #03045e;
   font-size: 1.1rem;
 }
 
 @media only screen and (max-width: 992px) {
+  .about__section-content{
+    margin-left: 10px;
+  }
   .about__section-content h2 {
     font-size: 1.5rem;
+
   }
   .about__section-item {
     column-gap: 3rem;

@@ -46,20 +46,32 @@ ul {
 }
 
 .section__title {
-  color: #000d6b;
+  /* color: #000d6b; */
+  color: #0096c7;
+
   font-weight: 600;
   font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+.section__title:hover{
+  transform: scale(1.2);
+
 }
 
 .section__subtitle {
-  color: #f9a826;
+  color: #03045e;
   font-weight: 600;
   font-size: 1.2rem;
+  transition: transform 0.3s ease;
 }
+/* .section__subtitle:hover{
+  transform: scale(1.6);
+
+} */
 
 .section__description {
-  color: #7c8a97;
-  font-size: 0.9rem;
+  color: black;
+  font-size: 1.2rem;
   line-height: 30px;
 }
 

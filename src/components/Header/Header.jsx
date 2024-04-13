@@ -1,9 +1,12 @@
-import React, { useRef } from "react";
-
+import React, { useRef,useState } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
-import "../../styles/header.css";
-
+import "../../styles/header.css"; 
+import world from "../myicons/icons8-world.gif"
+import watch from "../myicons/icons8-clock.gif"
+import watchImage from "../myicons/icons8-clock-64.png"
+import worldImage from "../myicons/icons8-world-64.png"
+import Logo from "../myicons/1.png"
 const navLinks = [
   {
     path: "/home",
@@ -24,11 +27,37 @@ const navLinks = [
   },
   {
     path: "/contact",
-    display: "Contact",
+    display: "FAQ",
   },
+  {
+    path: "/contact",
+    display: "Testimonials",
+  },{
+    path: "/contact",
+    display: "About Us",
+  },
+  {
+    path: "/contact",
+    display: "Contact Us",
+  },
+
 ];
 
 const Header = () => {
+
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleHover = () => {
+    setIsHovered(!isHovered);
+  };
+
+  const [isHovered2, setIsHovered2] = useState(false);
+
+  const handleHover2 = () => {
+    setIsHovered2(!isHovered2);
+  };
+
+
   const menuRef = useRef(null);
 
   const toggleMenu = () => menuRef.current.classList.toggle("menu__active");
@@ -36,7 +65,7 @@ const Header = () => {
   return (
     <header className="header">
       {/* ============ header top ============ */}
-      <div className="header__top">
+      {/* <div className="header__top">
         <Container>
           <Row>
             <Col lg="6" md="6" sm="6">
@@ -61,7 +90,7 @@ const Header = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
 
       {/* =============== header middle =========== */}
       <div className="header__middle">
@@ -73,8 +102,9 @@ const Header = () => {
                   <Link to="/home" className=" d-flex align-items-center gap-2">
                     <i class="ri-car-line"></i>
                     <span>
-                      Rent Car <br /> Service
+                      Firendly Lemousine <br /> Service
                     </span>
+                    {/* <img src={Logo} alt="logo" className="my2" width="100px" height="100px"/> */}
                   </Link>
                 </h1>
               </div>
@@ -83,11 +113,21 @@ const Header = () => {
             <Col lg="3" md="3" sm="4">
               <div className="header__location d-flex align-items-center gap-2">
                 <span>
-                  <i class="ri-earth-line"></i>
+                  {/* <i class="ri-earth-line"></i> */}
+                  {/* <img src={world} alt="no photo" /> */}
+
+                  <img
+        src={isHovered2 ? world : worldImage}
+        alt="Watch"
+        className="gif-image"
+        onMouseEnter={handleHover2}
+        onMouseLeave={handleHover2}
+      />
+
                 </span>
                 <div className="header__location-content">
-                  <h4>Bangladesh</h4>
-                  <h6>Sylhet City, Bangladesh</h6>
+                  <h4>11 Brian Monkman Bay, Winnipeg,Canada.</h4>
+                  {/* <h6>Winnipeg City, Canada</h6> */}
                 </div>
               </div>
             </Col>
@@ -95,11 +135,18 @@ const Header = () => {
             <Col lg="3" md="3" sm="4">
               <div className="header__location d-flex align-items-center gap-2">
                 <span>
-                  <i class="ri-time-line"></i>
+                  {/* <i class="ri-time-line"></i> */}
+                  <img
+                    src={isHovered ? watch : watchImage}
+                    alt="Watch"
+                    className="gif-image my1"
+                    onMouseEnter={handleHover}
+                    onMouseLeave={handleHover}
+                  />
                 </span>
                 <div className="header__location-content">
                   <h4>Sunday to Friday</h4>
-                  <h6>10am - 7pm</h6>
+                  <h6>24 * 7</h6>
                 </div>
               </div>
             </Col>
@@ -108,11 +155,11 @@ const Header = () => {
               lg="2"
               md="3"
               sm="0"
-              className=" d-flex align-items-center justify-content-end "
+              className=" d-flex align-items-center justify-content-end  "
             >
-              <button className="header__btn btn ">
+              <button className="header__btn btn  ">
                 <Link to="/contact">
-                  <i class="ri-phone-line"></i> Request a call
+                  <i class="ri-phone-line"></i> Book Now
                 </Link>
               </button>
             </Col>
@@ -133,7 +180,7 @@ const Header = () => {
               <div className="menu">
                 {navLinks.map((item, index) => (
                   <NavLink
-                    to={item.path}
+                    to={item.path}auto
                     className={(navClass) =>
                       navClass.isActive ? "nav__active nav__item" : "nav__item"
                     }
@@ -145,14 +192,14 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="nav__right">
+            {/* <div className="nav__right">
               <div className="search__box">
                 <input type="text" placeholder="Search" />
                 <span>
                   <i class="ri-search-line"></i>
                 </span>
               </div>
-            </div>
+            </div> */}
           </div>
         </Container>
       </div>

@@ -3,6 +3,10 @@
   background: #000d6b;
   color: #fff;
 }
+.my1{
+  height: 64px;
+  width: 64px;
+}
 
 .header__top__left {
   display: flex;
@@ -83,6 +87,7 @@
   border: none;
   outline: none;
   border-radius: 5px;
+
 }
 
 .header__btn a {
@@ -90,6 +95,8 @@
   align-items: center;
   column-gap: 0.4rem;
   text-decoration: none;
+  padding: 10px 20px;
+
   color: #fff;
   justify-content: end;
   font-size: 0.9rem;
@@ -104,6 +111,8 @@
 .main__navbar {
   padding: 15px 0px;
   background: #000d6b;
+  /* background: linear-gradient(#2193b0   10%,  #c4e0e5  ); */
+
 }
 
 .mobile__menu i {
@@ -118,19 +127,29 @@
 
 .menu {
   display: flex;
+  justify-content: center;
   align-items: center;
+  width: 1200px;
+  font-size: 1.2rem;
   column-gap: 2.7rem;
 }
 
 .nav__item {
   color: #fff;
   text-decoration: none;
-  transition: 0.3s;
+  font-weight: 500;
+  font-weight: 500;
+  /* transition: 0.3s; */
+  transition: transform 0.3s ease;
 }
 
-.nav__item:hover {
-  color: #f9a826;
+.nav__item:hover{
+  color: #d4a373;
+  transform: scale(1.2);
+
 }
+
+
 
 .search__box {
   border: 1px solid #7c8a972f;
@@ -158,7 +177,14 @@
 }
 
 .nav__active {
-  color: #f9a826;
+  color: #e3d5ca;
+  font-size: 1.3rem;
+  font-weight: 700;
+  transition: transform 0.3s ease;
+}
+.nav__active:hover{
+  color: #d4a373;
+  transform: scale(1.2);
 }
 
 @media only screen and (max-width: 768px) {
