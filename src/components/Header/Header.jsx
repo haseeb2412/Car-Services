@@ -102,7 +102,7 @@ const Header = () => {
                   <Link to="/home" className=" d-flex align-items-center gap-2">
                     <i class="ri-car-line"></i>
                     <span>
-                      Firendly Lemousine <br /> Service
+                      Firendly Limousine <br /> Services
                     </span>
                     {/* <img src={Logo} alt="logo" className="my2" width="100px" height="100px"/> */}
                   </Link>

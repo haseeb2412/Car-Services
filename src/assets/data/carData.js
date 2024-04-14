@@ -1,13 +1,22 @@
 // import all images from assets/images directory
-import img01 from "../all-images/cars-img/nissan-offer.png";
-import img02 from "../all-images/cars-img/offer-toyota.png";
-import img03 from "../all-images/cars-img/bmw-offer.png";
-import img04 from "../all-images/cars-img/nissan-offer.png";
-import img05 from "../all-images/cars-img/offer-toyota.png";
-import img06 from "../all-images/cars-img/mercedes-offer.png";
-import img07 from "../all-images/cars-img/toyota-offer-2.png";
-import img08 from "../all-images/cars-img/mercedes-offer.png";
-import image from "../useImages/image0 (3).jpeg"
+// import img01 from "../all-images/cars-img/nissan-offer.png";
+// import img02 from "../all-images/cars-img/offer-toyota.png";
+// import img03 from "../all-images/cars-img/bmw-offer.png";
+// import img04 from "../all-images/cars-img/nissan-offer.png";
+// import img05 from "../all-images/cars-img/offer-toyota.png";
+// import img06 from "../all-images/cars-img/mercedes-offer.png";
+// import img07 from "../all-images/cars-img/toyota-offer-2.png";
+// import img08 from "../all-images/cars-img/mercedes-offer.png";
+import image1 from "../useImages/image0__3_-removebg-preview.png"
+import image2 from "../useImages/001.png"
+import image3 from "../useImages/002-removebg-preview.png"
+import image4 from "../useImages/003-removebg-preview.png"
+import image5 from "../useImages/image1 (1).jpeg"
+import image6 from "../useImages/image1 (2).jpeg"
+import image7 from "../useImages/image1.jpeg"
+import image8 from "../useImages/image2.jpeg"
+
+
 
 const carData = [
   {
@@ -15,7 +24,7 @@ const carData = [
     brand: "Tesla",
     rating: 112,
     carName: "SUGrand highlander",
-    imgUrl: image,
+    imgUrl: image1,
     model: "model XLE",
     price: 50,
     speed: "20kmpl",
@@ -26,53 +35,53 @@ const carData = [
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
-  // {
-  //   id: 2,
-  //   brand: "Toyota",
-  //   rating: 102,
-  //   carName: "Toyota Aventador",
-  //   imgUrl: img02,
-  //   model: "Model-2022",
-  //   price: 50,
-  //   speed: "20kmpl",
-  //   gps: "GPS Navigation",
-  //   seatType: "Heated seats",
-  //   automatic: "Automatic",
-  //   description:
-  //     " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  // },
+  {
+    id: 2,
+    brand: "Toyota",
+    rating: 102,
+    carName: "Stretch suv limousine",
+    imgUrl: image2,
+    model: "Model-2022",
+    price: 50,
+    speed: "20kmpl",
+    gps: "GPS Navigation",
+    seatType: "Heated seats",
+    automatic: "Automatic",
+    description:
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+  },
 
-  // {
-  //   id: 3,
-  //   brand: "BMW",
-  //   rating: 132,
-  //   carName: "BMW X3",
-  //   imgUrl: img03,
-  //   model: "Model-2022",
-  //   price: 65,
-  //   speed: "20kmpl",
-  //   gps: "GPS Navigation",
-  //   seatType: "Heated seats",
-  //   automatic: "Automatic",
-  //   description:
-  //     " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  // },
+  {
+    id: 3,
+    brand: "BMW",
+    rating: 132,
+    carName: "BMW X3",
+    imgUrl: image3,
+    model: "Model-2022",
+    price: 65,
+    speed: "20kmpl",
+    gps: "GPS Navigation",
+    seatType: "Heated seats",
+    automatic: "Automatic",
+    description:
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+  },
 
-  // {
-  //   id: 4,
-  //   brand: "Nissan",
-  //   rating: 102,
-  //   carName: "Nissan Mercielago",
-  //   imgUrl: img04,
-  //   model: "Model-2022",
-  //   price: 70,
-  //   speed: "20kmpl",
-  //   gps: "GPS Navigation",
-  //   seatType: "Heated seats",
-  //   automatic: "Automatic",
-  //   description:
-  //     " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  // },
+  {
+    id: 4,
+    brand: "Nissan",
+    rating: 102,
+    carName: "Nissan Mercielago",
+    imgUrl: image4,
+    model: "Model-2022",
+    price: 70,
+    speed: "20kmpl",
+    gps: "GPS Navigation",
+    seatType: "Heated seats",
+    automatic: "Automatic",
+    description:
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+  },
 
   // {
   //   id: 5,

@@ -32,17 +32,11 @@ const About = () => {
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                At Frientdly Limousine Services, safety is at the core of everything we do. We are dedicated to providing safe ride solutions for our valued clients, ensuring peace of mind with every journey.  Whether it's a short trip or a long-distance ride, trust us to deliver a safe and secure experience, every time.
                 </p>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                Our commitment to safe ride solutions is unwavering. At Friendly Limousine Services, we go above and beyond to uphold the highest safety standards in the industry. Rigorous safety protocols, regular vehicle inspections. When you choose us, you're choosing a reliable partner dedicated to getting you to your destination safely and comfortably.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
@@ -61,9 +55,9 @@ const About = () => {
         </Container>
       </section>
 
-      <BecomeDriverSection />
+      {/* <BecomeDriverSection /> */}
 
-      <section>
+      {/* <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
@@ -73,7 +67,7 @@ const About = () => {
             <OurMembers />
           </Row>
         </Container>
-      </section>
+      </section> */}
     </Helmet>
   );
 };
