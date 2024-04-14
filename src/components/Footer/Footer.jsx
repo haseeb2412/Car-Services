@@ -43,16 +43,14 @@ const Footer = () => {
                 <Link to="/home" className=" d-flex align-items-center gap-2">
                   <i class="ri-car-line"></i>
                   <span>
-                    Friendly Lemousine <br /> Service
+                    Friendly Limousine <br /> Services
                   </span>
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+            "Your Journey, Our Passion: Where Luxury Meets the Road.
+            Elevate Your Ride: Unparalleled Comfort, Unmatched Style.
             </p>
           </Col>
 
