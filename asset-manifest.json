@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Car-Services/static/css/main.b5f5aece.css",
+    "main.js": "/Car-Services/static/js/main.7985f4a7.js",
+    "static/media/image1.jpeg": "/Car-Services/static/media/image1.9ea6f2e5d3335b376ecb.jpeg",
+    "static/media/remixicon.svg?t=1590207869815": "/Car-Services/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/remixicon.eot?t=1590207869815": "/Car-Services/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/Car-Services/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/ava-1.jpg": "/Car-Services/static/media/ava-1.c185d7723fe40ec46830.jpg",
+    "static/media/ava-3.jpg": "/Car-Services/static/media/ava-3.1442075049ece43143f2.jpg",
+    "static/media/ava-2.jpg": "/Car-Services/static/media/ava-2.11e918c656d0c7851624.jpg",
+    "static/media/ava-4.jpg": "/Car-Services/static/media/ava-4.5f15524f7b3f80a834df.jpg",
+    "static/media/remixicon.woff?t=1590207869815": "/Car-Services/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/image1 (2).jpeg": "/Car-Services/static/media/image1 (2).bfaae6847071546ecd64.jpeg",
+    "static/media/bmw-offer.png": "/Car-Services/static/media/bmw-offer.ecfb9ac1bf7b5ef615a6.png",
+    "static/media/remixicon.woff2?t=1590207869815": "/Car-Services/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/blog-1.jpg": "/Car-Services/static/media/blog-1.e4949dd1d3e0ec0543c5.jpg",
+    "static/media/nissan-offer.png": "/Car-Services/static/media/nissan-offer.6eddc86310b7cac538ae.png",
+    "static/media/blog-2.jpg": "/Car-Services/static/media/blog-2.dce2eeb8549652564638.jpg",
+    "static/media/toyota-offer-2.png": "/Car-Services/static/media/toyota-offer-2.861de085d1c782df9e9d.png",
+    "static/media/image0 (3).jpeg": "/Car-Services/static/media/image0 (3).c4f238e277fa59a2e415.jpeg",
+    "static/media/offer-toyota.png": "/Car-Services/static/media/offer-toyota.4b2435e447a7832d9f4a.png",
+    "static/media/mercedes-offer.png": "/Car-Services/static/media/mercedes-offer.d177a4fe9e2002ddb24d.png",
+    "static/media/blog-3.jpg": "/Car-Services/static/media/blog-3.0cd3766389d5b56badaa.jpg",
+    "static/media/drive.jpg": "/Car-Services/static/media/drive.b72e6f2d1ccdbd6550a9.jpg",
+    "static/media/1.png": "/Car-Services/static/media/1.4f49b77a9e1a7f14fdaf.png",
+    "static/media/icons8-clock.gif": "/Car-Services/static/media/icons8-clock.7cb035cd83de56c5023b.gif",
+    "static/media/icons8-world.gif": "/Car-Services/static/media/icons8-world.70c94db1d5cc40ab2650.gif",
+    "static/media/high3.jpg": "/Car-Services/static/media/high3.623b21c19b1450bc7dab.jpg",
+    "static/media/slick.svg": "/Car-Services/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Car-Services/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Car-Services/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Car-Services/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Car-Services/index.html",
+    "main.b5f5aece.css.map": "/Car-Services/static/css/main.b5f5aece.css.map",
+    "main.7985f4a7.js.map": "/Car-Services/static/js/main.7985f4a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5f5aece.css",
+    "static/js/main.7985f4a7.js"
+  ]
+}
