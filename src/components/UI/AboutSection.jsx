@@ -24,7 +24,7 @@ const AboutSection = ({ aboutClass }) => {
             <div className="about__section-content">
               <h4 className="section__subtitle">About Us</h4>
               <h1 className="section__title">
-              Welcome  To Five Frinedly Limousine Service</h1>
+              Welcome  To  Frinedly Limousine Service</h1>
               <p className="section__description">
               <h5 className="ooo">Welcome to Friendly Limousine Services,</h5>
               <hr />

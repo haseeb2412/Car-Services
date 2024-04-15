@@ -1,0 +1,47 @@
+
+
+
+
+
+.fadeRight {
+    /* position: absolute;
+    left: 0; */
+    animation: fadeRightAnim 2s ease-in-out forwards;
+
+
+  }
+  
+  @keyframes fadeRightAnim {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+
+
+  .fadeRight2 {
+    /* position: absolute;
+    left: 0; */
+    animation: fadeRightAnim 4s ease-in-out forwards;
+
+
+  }
+  
+  @keyframes fadeRightAnim {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  

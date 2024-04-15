@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/home.css"
 
 import HeroSlider from "../components/UI/HeroSlider";
 import Helmet from "../components/Helmet/Helmet";
@@ -39,17 +40,23 @@ const Home = () => {
         </div>
       </section>
       {/* =========== about section ================ */}
+      <div className="fadeRight"> 
       <AboutSection />
+      
+      </div>
       {/* ========== services section ============ */}
       <section>
-        <Container>
-          <Row>
-            <Col lg="12" className="mb-5 text-center">
+        <Container className="">
+          <Row className="fadeRight2">
+            <Col lg="12" className="mb-5 text-center ">
               <h6 className="section__subtitle">See our</h6>
               <h2 className="section__title">Popular Services</h2>
             </Col>
 
             <ServicesList />
+
+
+
           </Row>
         </Container>
       </section>
