@@ -15,7 +15,8 @@ export default function Testimonials() {
         <div className="my-testimonials"
             style={{
                 maxWidth:'1170px',
-                padding:'25px 0px'
+                padding:'25px 0px',
+                margin:"0 auto",
             }}
         >
         <Testimonial /> 
