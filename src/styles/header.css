@@ -96,10 +96,10 @@
   column-gap: 0.4rem;
   text-decoration: none;
   padding: 10px 20px;
+  font-size: 1.09rem;
 
   color: #fff;
   justify-content: end;
-  font-size: 0.9rem;
 }
 
 .header__btn a:hover {
@@ -129,9 +129,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1000px;
-  font-size: 1rem;
-  column-gap: 2.7rem;
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  column-gap: 3rem;
 }
 
 .nav__item {
