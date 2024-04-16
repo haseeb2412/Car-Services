@@ -25,7 +25,10 @@ export default function Faq() {
         <CommonSection title="FAQ" />
       {/* <AboutSection aboutClass="aboutPage" /> */}
 
-    <center><h2>This Is The Accordion</h2></center>
+    <center><h2  
+    style={{
+      fontWeight:'600'
+    }}>FREQUENTLY ASKED QUESTIONS</h2></center>
     <div className='my001'
     >
       <Accordion open={open} toggle={toggle}>

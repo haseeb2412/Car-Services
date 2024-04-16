@@ -15,7 +15,7 @@ const serviceData = [
 
   {
     id: 2,
-    title: "AIRPORT AND SEAPORT TRANSFERS",
+    title: "AIRPORT  TRANSFERS",
     icon: "ri-community-line",
     image_url:"https://img.icons8.com/dusk/64/globe--v2.png",
     animated:locationAnimation,

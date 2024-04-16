@@ -20,10 +20,10 @@ const Routers = () => {
       <Route path="/cars" element={<CarListing />} />
       <Route path="/faq" element={<Faq />} />
       <Route path="/testimonials" element={<Testimonials />} />
-      <Route path="/cars/:slug" element={<CarDetails />} />
+      {/* <Route path="/cars/:slug" element={<CarDetails />} /> */}
       {/* <Route path="/blogs" element={<Blog />} />
       <Route path="/blogs/:slug" element={<BlogDetails />} /> */}
-      {/* <Route path="/contact" element={<Contact />} /> */}
+      <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

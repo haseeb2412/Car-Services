@@ -39,21 +39,25 @@ Booking is hassle-free! Whether you need an instant ride or prefer to plan ahead
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Wedding Limo Packages
+                <img width="30" height="30" src="https://img.icons8.com/color/30/approval--v3.png" alt="approval--v3"/> Wedding Limo Packages
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Honeymoon Transporation
+                <img width="30" height="30" src="https://img.icons8.com/color/30/approval--v3.png" alt="approval--v3"/>Honeymoon Transporation
                 </p>
               </div>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Wedding Shuttle Transporation
+                <img width="30" height="30" src="https://img.icons8.com/color/30/approval--v3.png" alt="approval--v3"/> Wedding Shuttle Transporation
                 </p>
 
-                <p className="section__description d-flex align-items-center gap-2">
+                {/* <p className="section__description d-flex align-items-center gap-2">
                   <i class="ri-checkbox-circle-line"></i> Spacious & Clean Limousines
+                </p> */}
+
+                <p className="section__description d-flex align-items-center gap-2">
+                <img width="30" height="30" src="https://img.icons8.com/color/30/approval--v3.png" alt="approval--v3"/>Spacious & Clean Limousines
                 </p>
               </div>
             </div>

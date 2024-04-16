@@ -10,7 +10,9 @@ export default function Testimonials() {
 
         <CommonSection title="Testimonials" />
       {/* <AboutSection aboutClass="aboutPage" /> */}
-        <center><h1>this is the testimonials</h1></center>
+        <center><h1 style={{
+          fontWeight:'600'
+        }}>CLIENTS TESTIMONIALS</h1></center>
 
         <div className="my-testimonials"
             style={{

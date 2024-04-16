@@ -33,8 +33,8 @@ const navLinks = [
     path: "/testimonials",
     display: "Testimonials",
   },{
-    path: "/contact",
-    display: "About Us",
+    path: "/page",
+    display: "page",
   },
   {
     path: "/contact",
@@ -159,7 +159,7 @@ const Header = () => {
             >
               <button className="header__btn btn  ">
                 <Link to="/contact">
-                  <i class="ri-phone-line"></i> Book Now
+                  <i class="ri-phone-line"></i> Contact Us
                 </Link>
               </button>
             </Col>

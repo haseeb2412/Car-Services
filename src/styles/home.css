@@ -6,7 +6,7 @@
 .fadeRight {
     /* position: absolute;
     left: 0; */
-    animation: fadeRightAnim 2s ease-in-out forwards;
+    animation: fadeRightAnim 4s ease-in-out forwards;
 
 
   }
@@ -28,7 +28,7 @@
   .fadeRight2 {
     /* position: absolute;
     left: 0; */
-    animation: fadeRightAnim 4s ease-in-out forwards;
+    animation: fadeRightAnim 7s ease-in-out forwards;
 
 
   }
