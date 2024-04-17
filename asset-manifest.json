@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/Car-Services/static/css/main.9df648fa.css",
-    "main.js": "/Car-Services/static/js/main.6b4053dd.js",
+    "main.css": "/Car-Services/static/css/main.e59eedba.css",
+    "main.js": "/Car-Services/static/js/main.3fce3fa1.js",
+    "static/media/image0.jpeg": "/Car-Services/static/media/image0.cefdc78f05e487cc8743.jpeg",
     "static/media/image1.jpeg": "/Car-Services/static/media/image1.9ea6f2e5d3335b376ecb.jpeg",
+    "static/media/image0 (1).jpeg": "/Car-Services/static/media/image0 (1).4003f7652b6d0f3b84c8.jpeg",
     "static/media/image1 (1).jpeg": "/Car-Services/static/media/image1 (1).12d0dbe038ac842036f0.jpeg",
     "static/media/remixicon.svg?t=1590207869815": "/Car-Services/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/image2.jpeg": "/Car-Services/static/media/image2.02d859c057440ed5b3d2.jpeg",
@@ -15,8 +17,6 @@
     "static/media/remixicon.woff?t=1590207869815": "/Car-Services/static/media/remixicon.8d09fa11700ed63cf96e.woff",
     "static/media/image0__3_-removebg-preview.png": "/Car-Services/static/media/image0__3_-removebg-preview.f03943c8a5b456b30609.png",
     "static/media/image1 (2).jpeg": "/Car-Services/static/media/image1 (2).bfaae6847071546ecd64.jpeg",
-    "static/media/002-removebg-preview.png": "/Car-Services/static/media/002-removebg-preview.6a0610d958deaad036a7.png",
-    "static/media/003-removebg-preview.png": "/Car-Services/static/media/003-removebg-preview.934393fb1f8782a16851.png",
     "static/media/bmw-offer.png": "/Car-Services/static/media/bmw-offer.ecfb9ac1bf7b5ef615a6.png",
     "static/media/remixicon.woff2?t=1590207869815": "/Car-Services/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
     "static/media/blog-1.jpg": "/Car-Services/static/media/blog-1.e4949dd1d3e0ec0543c5.jpg",
@@ -26,7 +26,6 @@
     "static/media/drive.jpg": "/Car-Services/static/media/drive.b72e6f2d1ccdbd6550a9.jpg",
     "static/media/1.png": "/Car-Services/static/media/1.4f49b77a9e1a7f14fdaf.png",
     "static/media/icons8-clock.gif": "/Car-Services/static/media/icons8-clock.7cb035cd83de56c5023b.gif",
-    "static/media/001.png": "/Car-Services/static/media/001.492276992e84dbbecfe9.png",
     "static/media/icons8-world copy.gif": "/Car-Services/static/media/icons8-world copy.70c94db1d5cc40ab2650.gif",
     "static/media/icons8-world.gif": "/Car-Services/static/media/icons8-world.70c94db1d5cc40ab2650.gif",
     "static/media/high3.jpg": "/Car-Services/static/media/high3.623b21c19b1450bc7dab.jpg",
@@ -39,11 +38,11 @@
     "static/media/slick.ttf": "/Car-Services/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Car-Services/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Car-Services/index.html",
-    "main.9df648fa.css.map": "/Car-Services/static/css/main.9df648fa.css.map",
-    "main.6b4053dd.js.map": "/Car-Services/static/js/main.6b4053dd.js.map"
+    "main.e59eedba.css.map": "/Car-Services/static/css/main.e59eedba.css.map",
+    "main.3fce3fa1.js.map": "/Car-Services/static/js/main.3fce3fa1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9df648fa.css",
-    "static/js/main.6b4053dd.js"
+    "static/css/main.e59eedba.css",
+    "static/js/main.3fce3fa1.js"
   ]
 }
