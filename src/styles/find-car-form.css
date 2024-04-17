@@ -107,9 +107,9 @@
 
 @media only screen and (max-width: 768px) {
   .find__cars-left {
-    padding-top: 20px;
-    padding-bottom: 0;
-    background: #fff;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    /* background: #fff; */
     text-align: center;
   }
 

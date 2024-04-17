@@ -23,18 +23,21 @@ const CarItem = (props) => {
           </h6>
 
           <div className="car__item-info d-flex align-items-center justify-content-between mt-3 mb-4">
-            <span className=" d-flex align-items-center gap-1">
-              <i class="ri-car-line"></i> Model
+            <span className=" d-flex align-items-center gap-1"> 
+             XLE
+              <i class="ri-car-line"></i> 
               {/* {model} */}
             </span>
-            <span className=" d-flex align-items-center gap-1">
-              <i class="ri-settings-2-line"></i> 
-              automatic
+            <span className=" d-flex align-items-center gap-1"> 
+            Capacity : 12
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/25/user-male--v2.png" alt="user-male--v2"/> 
+               
               {/* {automatic} */}
             </span>
             <span className=" d-flex align-items-center gap-1">
-              <i class="ri-timer-flash-line"></i> 
-              speed
+              3 
+            <img width="20" height="20" src="https://img.icons8.com/external-anggara-basic-outline-anggara-putra/24/external-briefcase-user-interface-anggara-basic-outline-anggara-putra.png" alt="external-briefcase-user-interface-anggara-basic-outline-anggara-putra"/> 
+              
               {/* {speed} */}
             </span>
           </div>

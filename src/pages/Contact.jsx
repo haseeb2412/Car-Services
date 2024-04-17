@@ -63,13 +63,15 @@ const Contact = () => {
                   11 Brian Monkman Bay, Winnipeg,Canada
                 </p>
                 <div className=" d-flex align-items-center gap-2">
-                  <h6 className="fs-6 mb-0">Fax No:</h6>
-                  <p className="section__description mb-0">204-697-4245</p>
-                </div>
-                <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0">Phone:</h6>
                   <p className="section__description mb-0">204-999-3266</p>
                 </div>
+
+                <div className=" d-flex align-items-center gap-2">
+                  <h6 className="fs-6 mb-0">Fax No:</h6>
+                  <p className="section__description mb-0">204-697-4245</p>
+                </div>
+
 
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="mb-0 fs-6">Email:</h6>
