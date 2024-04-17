@@ -71,8 +71,8 @@ const Footer = () => {
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Location</h5>
               <p className="office__info">11 Brian Monkman Bay, Winnipeg,Canada</p>
-              <p className="office__info">Fax No: 204-697-4245</p>
               <p className="office__info">Phone: 204-999-3266</p>
+              <p className="office__info">Fax No: 204-697-4245</p>
 
               <p className="office__info">Email: haseeb241202@gmail.com</p>
 

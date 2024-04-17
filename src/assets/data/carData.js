@@ -8,9 +8,9 @@
 // import img07 from "../all-images/cars-img/toyota-offer-2.png";
 // import img08 from "../all-images/cars-img/mercedes-offer.png";
 import image1 from "../useImages/image0__3_-removebg-preview.png"
-import image2 from "../useImages/001.png"
-import image3 from "../useImages/002-removebg-preview.png"
-import image4 from "../useImages/003-removebg-preview.png"
+import image2 from "../useImages/image0.jpeg"
+import image3 from "../useImages/image0 (1).jpeg"
+import image4 from "../useImages/image2.jpeg"
 import image5 from "../useImages/image1 (1).jpeg"
 import image6 from "../useImages/image1 (2).jpeg"
 import image7 from "../useImages/image1.jpeg"
