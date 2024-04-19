@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import "../styles/cardetail.css"
 import carData from "../assets/data/carData";
 import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
@@ -34,8 +34,8 @@ const CarDetails = () => {
                     ${singleCarItem.price}.00 / Day
                   </h6>
 
-                  <span className=" d-flex align-items-center gap-2">
-                    <span style={{ color: "#f9a826" }}>
+                  <span className=" d-flex align-items-center gap-2 myhover">
+                    <span style={{ color: "#000d6b" }}>
                       <i class="ri-star-s-fill"></i>
                       <i class="ri-star-s-fill"></i>
                       <i class="ri-star-s-fill"></i>
@@ -54,26 +54,26 @@ const CarDetails = () => {
                   className=" d-flex align-items-center mt-3"
                   style={{ columnGap: "4rem" }}
                 >
-                  <span className=" d-flex align-items-center gap-1 section__description">
+                  <span className=" d-flex align-items-center gap-1 section__description myhover">
                     <i
-                      class="ri-roadster-line"
-                      style={{ color: "#f9a826" }}
+                      class="ri-roadster-line "
+                      style={{ color: "#000d6b" }}
                     ></i>{" "}
                     {singleCarItem.model}
                   </span>
 
-                  <span className=" d-flex align-items-center gap-1 section__description">
+                  <span className=" d-flex align-items-center gap-1 section__description myhover">
                     <i
                       class="ri-settings-2-line"
-                      style={{ color: "#f9a826" }}
+                      style={{ color: "#000d6b" }}
                     ></i>{" "}
                     {singleCarItem.automatic}
                   </span>
 
-                  <span className=" d-flex align-items-center gap-1 section__description">
+                  <span className=" d-flex align-items-center gap-1 section__description myhover">
                     <i
                       class="ri-timer-flash-line"
-                      style={{ color: "#f9a826" }}
+                      style={{ color: "#000d6b" }}
                     ></i>{" "}
                     {singleCarItem.speed}
                   </span>
@@ -83,23 +83,23 @@ const CarDetails = () => {
                   className=" d-flex align-items-center mt-3"
                   style={{ columnGap: "2.8rem" }}
                 >
-                  <span className=" d-flex align-items-center gap-1 section__description">
-                    <i class="ri-map-pin-line" style={{ color: "#f9a826" }}></i>{" "}
+                  <span className=" d-flex align-items-center gap-1 section__description myhover">
+                    <i class="ri-map-pin-line" style={{ color: "#000d6b" }}></i>{" "}
                     {singleCarItem.gps}
                   </span>
 
-                  <span className=" d-flex align-items-center gap-1 section__description">
+                  <span className=" d-flex align-items-center gap-1 section__description  myhover">
                     <i
                       class="ri-wheelchair-line"
-                      style={{ color: "#f9a826" }}
+                      style={{ color: "#000d6b" }}
                     ></i>{" "}
                     {singleCarItem.seatType}
                   </span>
 
-                  <span className=" d-flex align-items-center gap-1 section__description">
+                  <span className=" d-flex align-items-center gap-1 section__description myhover">
                     <i
                       class="ri-building-2-line"
-                      style={{ color: "#f9a826" }}
+                      style={{ color: "#000d6b" }}
                     ></i>{" "}
                     {singleCarItem.brand}
                   </span>
@@ -109,7 +109,7 @@ const CarDetails = () => {
 
             <Col lg="7" className="mt-5">
               <div className="booking-info mt-5">
-                <h5 className="mb-4 fw-bold ">Booking Information</h5>
+                <h5 className="mb-4 fw-bold myhover ">Booking Information</h5>
                 <BookingForm />
               </div>
             </Col>

@@ -9,30 +9,34 @@ const PaymentMethod = () => {
     <>
       <div className="payment">
         <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Direct Bank Transfer
+          <input type="radio" />  Method 01
+          {/* Direct Bank Transfer */}
         </label>
       </div>
 
       <div className="payment mt-3">
         <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Cheque Payment
+          <input type="radio" />  Method 01
+          {/* Cheque Payment */}
         </label>
       </div>
 
       <div className="payment mt-3 d-flex align-items-center justify-content-between">
         <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Master Card
+          <input type="radio" />  Method 01
+          {/* Master Card */}
         </label>
 
-        <img src={masterCard} alt="" />
+        {/* <img src={masterCard} alt="" /> */}
       </div>
 
       <div className="payment mt-3 d-flex align-items-center justify-content-between">
         <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Paypal
+          <input type="radio" />  Method 01
+          {/* Paypal */}
         </label>
 
-        <img src={paypal} alt="" />
+        {/* <img src={paypal} alt="" /> */}
       </div>
       <div className="payment text-end mt-5">
         <button>Reserve Now</button>

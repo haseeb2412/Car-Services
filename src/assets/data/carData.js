@@ -32,7 +32,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Experience luxury and adventure with our SUGrand Highlander. Its sleek design, spacious interiors, and advanced features make every journey a joy. Whether you're cruising through city streets or tackling off-road terrain, the SUGrand Highlander ensures a comfortable and exhilarating ride, setting new standards in automotive excellence.",
   },
 
   {
@@ -48,7 +48,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Discover the SUGrand Highlander: a perfect blend of style, performance, and versatility. With its sleek design and advanced features, this car promises an unforgettable driving experience. Whether you're commuting in the city or embarking on a road trip, the SUGrand Highlander ensures comfort and excitement at every turn.",
   },
 
   {
@@ -64,7 +64,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Experience luxury on the move with the BMW X3. This SUV seamlessly blends style, technology, and performance, offering a dynamic driving experience. With its sleek design and advanced features, the X3 makes every journey a pleasure, whether you're cruising through the city or venturing off-road. Discover the epitome of versatility and sophistication with the BMW X3.",
   },
 
   {
