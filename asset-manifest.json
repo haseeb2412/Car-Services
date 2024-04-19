@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Car-Services/static/css/main.e59eedba.css",
-    "main.js": "/Car-Services/static/js/main.3fce3fa1.js",
+    "main.css": "/Car-Services/static/css/main.4b96c35b.css",
+    "main.js": "/Car-Services/static/js/main.24a8ed11.js",
     "static/media/image0.jpeg": "/Car-Services/static/media/image0.cefdc78f05e487cc8743.jpeg",
     "static/media/image1.jpeg": "/Car-Services/static/media/image1.9ea6f2e5d3335b376ecb.jpeg",
     "static/media/image0 (1).jpeg": "/Car-Services/static/media/image0 (1).4003f7652b6d0f3b84c8.jpeg",
@@ -38,11 +38,11 @@
     "static/media/slick.ttf": "/Car-Services/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Car-Services/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Car-Services/index.html",
-    "main.e59eedba.css.map": "/Car-Services/static/css/main.e59eedba.css.map",
-    "main.3fce3fa1.js.map": "/Car-Services/static/js/main.3fce3fa1.js.map"
+    "main.4b96c35b.css.map": "/Car-Services/static/css/main.4b96c35b.css.map",
+    "main.24a8ed11.js.map": "/Car-Services/static/js/main.24a8ed11.js.map"
   },
   "entrypoints": [
-    "static/css/main.e59eedba.css",
-    "static/js/main.3fce3fa1.js"
+    "static/css/main.4b96c35b.css",
+    "static/js/main.24a8ed11.js"
   ]
 }
