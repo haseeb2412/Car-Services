@@ -19,7 +19,7 @@ const CarItem = (props) => {
           <h4 className="section__title text-center">{carName}</h4>
           <h6 className="rent__price text-center mt-">
             {/* ${price} */}
-            00.00$ <span>/ Day</span>
+            Automatic <span></span>
           </h6>
 
           <div className="car__item-info d-flex align-items-center justify-content-between mt-3 mb-4">
@@ -29,16 +29,15 @@ const CarItem = (props) => {
               {/* {model} */}
             </span>
             <span className=" d-flex align-items-center gap-1"> 
-            Capacity : 12
+            Capacity : 
             <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/25/user-male--v2.png" alt="user-male--v2"/> 
                
-              {/* {automatic} */}
+              {automatic}
             </span>
             <span className=" d-flex align-items-center gap-1">
-              3 
-            <img width="20" height="20" src="https://img.icons8.com/external-anggara-basic-outline-anggara-putra/24/external-briefcase-user-interface-anggara-basic-outline-anggara-putra.png" alt="external-briefcase-user-interface-anggara-basic-outline-anggara-putra"/> 
+             {/* <img width="20" height="20" src="https://img.icons8.com/external-anggara-basic-outline-anggara-putra/24/external-briefcase-user-interface-anggara-basic-outline-anggara-putra.png" alt="external-briefcase-user-interface-anggara-basic-outline-anggara-putra"/>  */}
               
-              {/* {speed} */}
+              {speed}
             </span>
           </div>
 

@@ -22,14 +22,14 @@ const serviceData = [
     desc: "Skip airport taxi queues. Let Friendly Limousine Service elevate your vacation from gate to getaway in comfort and style",
   },
 
-  {
-    id: 3,
-    title: "WEDDINGS",
-    icon: "ri-roadster-line",
-    image_url:"https://img.icons8.com/dusk/64/like--v2.png",
-    animated:weddingAnimation,
-    desc: "Craft your dream wedding with tailored packages including red carpet arrivals, seamless transportation, and flat-rate transfers to your honeymoon or airport. Your vision, our priority",
-  },
+  // {
+  //   id: 3,
+  //   title: "WEDDINGS",
+  //   icon: "ri-roadster-line",
+  //   image_url:"https://img.icons8.com/dusk/64/like--v2.png",
+  //   animated:weddingAnimation,
+  //   desc: "Craft your dream wedding with tailored packages including red carpet arrivals, seamless transportation, and flat-rate transfers to your honeymoon or airport. Your vision, our priority",
+  // },
 
   {
     id: 4,

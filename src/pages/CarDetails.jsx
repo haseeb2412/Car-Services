@@ -31,7 +31,7 @@ const CarDetails = () => {
 
                 <div className=" d-flex align-items-center gap-5 mb-4 mt-3">
                   <h6 className="rent__price fw-bold fs-4">
-                    ${singleCarItem.price}.00 / Day
+                    Automatic
                   </h6>
 
                   <span className=" d-flex align-items-center gap-2 myhover">
@@ -63,10 +63,9 @@ const CarDetails = () => {
                   </span>
 
                   <span className=" d-flex align-items-center gap-1 section__description myhover">
-                    <i
-                      class="ri-settings-2-line"
-                      style={{ color: "#000d6b" }}
-                    ></i>{" "}
+                  <img width="25" height="25" src="https://img.icons8.com/ios/25/user--v2.png" alt="user--v2"  style={{ color: "#000d6b" }} className="ri-settings-2-line"
+                  />
+                    
                     {singleCarItem.automatic}
                   </span>
 
