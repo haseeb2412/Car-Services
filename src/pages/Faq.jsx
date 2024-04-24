@@ -60,3 +60,14 @@ Please make sure you provide us the passengers full name, cell number and email 
     </>
   )
 }
+
+
+
+{/* <AccordionHeader className="bold" targetId="3">What is your COVID-19 Safety Procedure?</AccordionHeader>
+<AccordionBody accordionId="3">
+We follow all COVID-19 guidelines. All the vehicles are sanitized before and after each ride. The chauffeurs wear mask and we get regular temperature check ups to ensure your safety. 
+</AccordionBody>
+</AccordionItem>
+</Accordion>
+</div>
+</Helmet> */}
