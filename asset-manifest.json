@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Car-Services/static/css/main.4b96c35b.css",
-    "main.js": "/Car-Services/static/js/main.24a8ed11.js",
+    "main.css": "/Car-Services/static/css/main.c4fce3e3.css",
+    "main.js": "/Car-Services/static/js/main.748ff58a.js",
     "static/media/image0.jpeg": "/Car-Services/static/media/image0.cefdc78f05e487cc8743.jpeg",
     "static/media/image1.jpeg": "/Car-Services/static/media/image1.9ea6f2e5d3335b376ecb.jpeg",
     "static/media/image0 (1).jpeg": "/Car-Services/static/media/image0 (1).4003f7652b6d0f3b84c8.jpeg",
-    "static/media/image1 (1).jpeg": "/Car-Services/static/media/image1 (1).12d0dbe038ac842036f0.jpeg",
     "static/media/remixicon.svg?t=1590207869815": "/Car-Services/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/image2.jpeg": "/Car-Services/static/media/image2.02d859c057440ed5b3d2.jpeg",
     "static/media/remixicon.eot?t=1590207869815": "/Car-Services/static/media/remixicon.5cb99e6cba5a4619063f.eot",
     "static/media/remixicon.ttf?t=1590207869815": "/Car-Services/static/media/remixicon.f2616f597cf98f38d234.ttf",
     "static/media/ava-1.jpg": "/Car-Services/static/media/ava-1.c185d7723fe40ec46830.jpg",
     "static/media/ava-3.jpg": "/Car-Services/static/media/ava-3.1442075049ece43143f2.jpg",
+    "static/media/img0.jpeg": "/Car-Services/static/media/img0.db0998ed941adca443ed.jpeg",
     "static/media/ava-2.jpg": "/Car-Services/static/media/ava-2.11e918c656d0c7851624.jpg",
     "static/media/ava-4.jpg": "/Car-Services/static/media/ava-4.5f15524f7b3f80a834df.jpg",
     "static/media/remixicon.woff?t=1590207869815": "/Car-Services/static/media/remixicon.8d09fa11700ed63cf96e.woff",
@@ -38,11 +38,11 @@
     "static/media/slick.ttf": "/Car-Services/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Car-Services/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Car-Services/index.html",
-    "main.4b96c35b.css.map": "/Car-Services/static/css/main.4b96c35b.css.map",
-    "main.24a8ed11.js.map": "/Car-Services/static/js/main.24a8ed11.js.map"
+    "main.c4fce3e3.css.map": "/Car-Services/static/css/main.c4fce3e3.css.map",
+    "main.748ff58a.js.map": "/Car-Services/static/js/main.748ff58a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b96c35b.css",
-    "static/js/main.24a8ed11.js"
+    "static/css/main.c4fce3e3.css",
+    "static/js/main.748ff58a.js"
   ]
 }
