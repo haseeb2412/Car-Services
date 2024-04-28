@@ -13,7 +13,7 @@ const CarListing = () => {
       <section>
         <Container>
           <Row>
-            <Col lg="12">
+            {/* <Col lg="12">
               <div className=" d-flex align-items-center gap-3 mb-5">
                 <span className=" d-flex align-items-center gap-2">
                   <i class="ri-sort-asc"></i> Sort By
@@ -25,7 +25,7 @@ const CarListing = () => {
                   <option value="high">High to Low</option>
                 </select>
               </div>
-            </Col>
+            </Col> */}
 
             {carData.map((item) => (
               <CarItem item={item} key={item.id} />

@@ -24,9 +24,9 @@ const CarItem = (props) => {
 
           <div className="car__item-info d-flex align-items-center justify-content-between mt-3 mb-4">
             <span className=" d-flex align-items-center gap-1"> 
-             XLE
+             
               <i class="ri-car-line"></i> 
-              {/* {model} */}
+              {model}
             </span>
             <span className=" d-flex align-items-center gap-1"> 
             Capacity : 
