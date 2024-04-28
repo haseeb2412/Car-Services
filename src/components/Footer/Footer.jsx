@@ -11,13 +11,13 @@ const quickLinks = [
   },
 
   {
-    path: "#",
-    display: "Privacy Policy",
+    path: "/cars",
+    display: "Our Cars",
   },
 
   {
-    path: "/cars",
-    display: "Car Listing",
+    path: "/testimonials",
+    display: "Testimonials",
   },
   // {
   //   path: "/blogs",
@@ -26,7 +26,7 @@ const quickLinks = [
 
   {
     path: "/contact",
-    display: "Contact",
+    display: "Contact Us",
   },
 ];
 
@@ -95,7 +95,10 @@ const Footer = () => {
 
           <Col lg="12">
             <div className="footer__bottom">
-              <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
+              <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4"
+              style={{
+                color:'white'
+              }}>
                 <i class="ri-copyright-line"></i>Copyright {year}, Developed by
                 Muhammad Haseeb. All rights reserved.
               </p>

@@ -21,10 +21,10 @@ const navLinks = [
     display: "Fleet",
   },
 
-  {
-    path: "/blogs",
-    display: "Blog",
-  },
+  // {
+  //   path: "/blogs",
+  //   display: "Blog",
+  // },
   {
     path: "/faq",
     display: "FAQ",
@@ -32,10 +32,11 @@ const navLinks = [
   {
     path: "/testimonials",
     display: "Testimonials",
-  },{
-    path: "/page",
-    display: "page",
   },
+  // {
+  //   path: "/Booking",
+  //   display: "Booking",
+  // },
   {
     path: "/contact",
     display: "Contact Us",
