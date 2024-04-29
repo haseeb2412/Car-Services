@@ -114,13 +114,3 @@ export default Footer;
 
 
 
-
-// }}>
-// <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-// Muhammad Haseeb. All rights reserved.
-// </p>
-// </div>
-// </Col>
-// </Row>
-// </Container>
-// </footer>
