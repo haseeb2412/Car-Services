@@ -46,6 +46,7 @@
 
 .header__middle {
   padding: 20px 0px;
+  position: relative;
 }
 
 .logo h1 a span {
@@ -110,6 +111,7 @@
 
 .main__navbar {
   padding: 15px 0px;
+  margin-top: -218px;
   background: #000d6b;
   /* background: linear-gradient(#2193b0   10%,  #c4e0e5  ); */
 
