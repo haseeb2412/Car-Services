@@ -6,7 +6,8 @@ import world from "../myicons/icons8-world.gif"
 import watch from "../myicons/icons8-clock.gif"
 import watchImage from "../myicons/icons8-clock-64.png"
 import worldImage from "../myicons/icons8-world-64.png"
-import Logo from "../myicons/1.png"
+import img from "../myicons/2.png"
+// import Logo from "../myicons/1.png"
 const navLinks = [
   {
     path: "/home",
@@ -101,10 +102,17 @@ const Header = () => {
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <i class="ri-car-line"></i>
+                    <img src={img} alt="main" 
+                    style={{
+                      width: "288px",
+                      height: "auto",
+                      position: "relative",
+                      top: "-103px"
+                    }}/>
+                    {/* <i class="ri-car-line"></i>
                     <span>
                       Firendly Limousine <br /> Services
-                    </span>
+                    </span> */}
                     {/* <img src={Logo} alt="logo" className="my2" width="100px" height="100px"/> */}
                   </Link>
                 </h1>
@@ -158,7 +166,10 @@ const Header = () => {
               sm="0"
               className=" d-flex align-items-center justify-content-end  "
             >
-              <button className="header__btn btn  ">
+              <button className="header__btn btn  " style={{
+                position:"relative",
+                top:'-116px'
+              }}>
                 <Link to="/contact">
                   <i class="ri-phone-line"></i> Contact Us
                 </Link>
