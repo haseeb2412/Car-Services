@@ -150,3 +150,18 @@ const carData = [
 ];
 
 export default carData;
+// {
+//   id: 5,
+//   brand: "Limousine",
+//   rating: 94,
+//   carName: "Limousine",
+//   imgUrl: image5,
+//   model: "CAR",
+//   price: 45,
+//   speed: "20kmpl",
+//   gps: "GPS Navigation",
+//   seatType: "Heated seats",
+//   automatic: "9",
+//   description:
+//     " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+// },
