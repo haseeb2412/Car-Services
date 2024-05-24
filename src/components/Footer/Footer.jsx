@@ -28,6 +28,10 @@ const quickLinks = [
     path: "/contact",
     display: "Contact Us",
   },
+  {
+    path: "/contact",
+    display: "Contact Us",
+  },
 ];
 
 const Footer = () => {
