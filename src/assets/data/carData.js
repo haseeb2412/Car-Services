@@ -149,3 +149,15 @@ const carData = [
 export default carData;
 
 
+// {
+  //   id: 8,
+  //   brand: "Colorado",
+  //   rating: 52,
+  //   carName: "Rolls Royce Colorado",
+  //   imgUrl: img08,
+  //   model: "Model 3",
+  //   price: 50,
+  //   speed: "20kmpl",
+  //   gps: "GPS Navigation",
+  //   seatType: "Heated seats",
+  
